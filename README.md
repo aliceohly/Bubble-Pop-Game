@@ -1,5 +1,7 @@
 # Bubble-Pop-Game
-An iOS Swift bubble pop game that adopts MVP model.
+An iOS Swift bubble pop game that adopts MVC model.
+
+A Youtube video has been recorded for demo: https://www.youtube.com/watch?v=z4NcU-QijDs
 
 In this game, a number of bubbles are randomly displayed on an iOS device screen. A player pops a bubble by touching the bubble, and every time they pop a bubble they earn a certain number of points. Bubbles come in five colours: red, pink, green, blue and black. Each colour corresponds to a specific number of points and has a specific probability of appearance. All bubbles appear on the screen briefly. A player needs to pop as many bubbles as possible within a certain timeframe (default to 60 seconds) to get high scores. Note that, if a player pops two or more bubbles of the same colour consecutively, they earn 1.5 times the points for the additional bubbles they pop. Finally, game scores are saved and a high score board is displayed after a game run is finished. 
 
